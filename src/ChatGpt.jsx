@@ -60,7 +60,7 @@ const ChatGpt = () => {
           Ask me anything!!!
         </a>
       </div>
-      <div className="flex flex-col gap-2 w-screen px-4">
+      <div className="flex flex-col gap-2 w-full px-4">
         {chatHistory.map((chat) => {
           return chat.user ? (
             <UserChat message={chat.text} />
