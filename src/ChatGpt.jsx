@@ -55,7 +55,7 @@ const ChatGpt = () => {
 
   return (
     <div className="w-screen h-screen bg-[#f2f5f6] p-4 pt-14 relative flex flex-col justify-between gap-4">
-      <div className="cursor-pointer fixed w-full top-2 flex justify-center text-[#4545ed] font-bold text-2xl">
+      <div className="cursor-pointer fixed w-full top-2 flex justify-center text-[#4545ed] bg-[#f2f5f6] font-bold text-2xl">
         <a href="https://cermuel.vercel.app/" target="_blank">
           Ask me anything!!!
         </a>
