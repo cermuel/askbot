@@ -10,7 +10,7 @@ const ChatGpt = () => {
   const [chatHistory, setChatHistory] = useState([]);
   const [userInput, setUserInput] = useState();
   const [isLoading, setisLoading] = useState(false);
-  const API_KEY = "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";
+  const API_KEY = "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";
 
   const configuration = new Configuration({
     apiKey: API_KEY,
